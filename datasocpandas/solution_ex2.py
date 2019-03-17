@@ -18,7 +18,7 @@ print((fifa[(fifa.Club=='Chelsea')].Potential.sum()))
 print((fifa[(fifa.Club=='Chelsea') &(fifa.Potential > 90)].Potential.sum()))
 
 #question-6
-print(fifa[fifa.Position == 'GK'].groupby('Nationality').Nationality.count())
+print(fifa[fifa.Position == 'GK'].groupby('Nationality').Nationality.count().sort_values(ascending=False))
 
 #question-7
 accepted_columns =['Name','Nationality','Value','Potential']
