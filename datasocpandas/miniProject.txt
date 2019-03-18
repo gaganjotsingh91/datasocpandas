@@ -1,0 +1,22 @@
+Mini-Project.
+
+Your Tutor Gaganjot just won a lottery of 5000 Million Euros.  He has always wanted to be a football club owner, and now with the Money in hand, he decides to make his own club. Although he has a lot of money now, he has absolutely no idea of the Football players, and hires you to create a squad for him. The below are the specifications of the squad.
+There should be 
+2- ST [ Value not exceeding 100 Million Euros per Striker]
+2 -GK [Value not exceeding 150 Million Euros per Goal Keeper]
+1 -LF [Value not exceeding 80 Million euros] 
+1 -RF [Value not exceeding 80 Million ]
+3-CB [Value not exceeding 80 Million euros] 
+1-RW [Value not exceeding 80 Million euros] 
+1 -LW [Value not exceeding 80 Million euros] 
+2- CM [Value not exceeding 100 Million euros] 
+1-RB [Value not exceeding 80 Million euros] 
+1 -LB [Value not exceeding 80 Million euros] 
+
+
+Gagan also wants a diverse and a good team, so he asks you to take players from different Nationalities, and specifies that there should be no more than 1 player per Nationality present in the team.
+
+Your task is to create a club, getting the top players within budget and belonging to all different Nationalities.
+You will have to clean some data, as some Values present in the data are of 0 Million Euros, and convert this string data into floats.
+You should follow the club creation in the order of the players specified i.e. start with Strikers, followed by Goal keeper and so-on.
+
